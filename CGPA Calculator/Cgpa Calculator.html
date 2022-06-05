@@ -10,6 +10,7 @@
            ar=new Array()
            ar2=new Array()
            document.write("<br>");
+	document.write("<h2> <u>Subject, Grades and Credits:</u></h2>");
            for(i=0;i<n;i++){
              ar[i]=prompt( "Enter subject's grade here:","A");
              ar2[i]=prompt("Enter respective subject's credit here:", "4.00");
@@ -76,7 +77,7 @@
             cgpa_sum+=ar2[i];
           }
           
-          document.write("<h3>Your CGPA is: "+(cgpa_cr/cgpa_sum).toFixed(2)+"</h3>");
+          document.write("<h2>Your CGPA is: "+(cgpa_cr/cgpa_sum).toFixed(2)+"</h2>");
            
          }
       </script>
